@@ -1,7 +1,7 @@
-defmodule NflRushingBackendWeb.Player do
+defmodule NflRushingBackend.Player do
   use Ecto.Schema
   import Ecto.Changeset
-  alias NflRushingBackendWeb.Player
+  alias NflRushingBackend.Player
 
   schema "players" do
     field :player, :string

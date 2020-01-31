@@ -11,7 +11,7 @@
 # and so on) as they will fail if something goes wrong.
 
 defmodule NflRushingBackendSeed do
-  alias NflRushingBackendWeb.Player
+  alias NflRushingBackend.Player
 
   def get_json(filename) do
 
